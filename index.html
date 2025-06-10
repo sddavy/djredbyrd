@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DJ Samuel - Official Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #111;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(to right, #000, #222);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+      color: #0f0;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+    nav {
+      background: #000;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+    }
+    nav a {
+      color: #0f0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #0f0;
+    }
+    .services, .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .service, .gallery img {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .service {
+      width: 280px;
+    }
+    .gallery img {
+      width: 300px;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 500px;
+      margin: auto;
+    }
+    input, textarea {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background: #333;
+      color: white;
+    }
+    button {
+      background: #0f0;
+      color: black;
+      border: none;
+      padding: 12px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DJ Samuel</h1>
+    <p>Bringing the Beat to Your Event</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m DJ Samuel. With years of experience mixing tracks at weddings, clubs, and private parties, I bring high energy and seamless beats to every event. My setup includes dynamic lighting and top-tier sound for an unforgettable experience.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Weddings</h3>
+        <p>Make your special day perfect with the right vibe and a packed dance floor.</p>
+      </div>
+      <div class="service">
+        <h3>Parties</h3>
+        <p>From birthdays to backyard BBQs, let’s get the party started!</p>
+      </div>
+      <div class="service">
+        <h3>Corporate Events</h3>
+        <p>Professional sound and energy for company functions, launches, and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Gig+1" alt="Gig 1">
+      <img src="https://via.placeholder.com/300x200?text=Gig+2" alt="Gig 2">
+      <img src="https://via.placeholder.com/300x200?text=Gig+3" alt="Gig 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:your@email.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DJ Samuel. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
